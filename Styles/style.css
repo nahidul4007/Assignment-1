@@ -7,6 +7,13 @@ body {
     background-color: aliceblue;
 }
 
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 
 
 
@@ -78,43 +85,3 @@ header nav {
     font-size: 17px;
     font-weight: 600;
 }
-.first-container {
-    height: 665px;
-    background-image: url("../assets/hero-bg.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    gap: 16px;
-}
-.first-sub-container {
-    max-width: 1360px;
-    height: 379px;
-    border: 2px solid pink;
-    margin: 0 auto;
-
-}
-.header-text {
-    max-width: 1370px;
-    height: 295px;
-    border: 1px solid red;
-    justify-items: center;
-}
-.header-text .icon {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    background-color: red;
-    border-radius: 10px;
-    margin: 0 600px;
-    font-size: 10px;
-}
-
-
-
-
-/*  vai re vai . margin padding ar jalai ar project banano jai jamela .  more jacchi pura . */
-
