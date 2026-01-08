@@ -6,11 +6,79 @@
 body {
     background-color: aliceblue;
 }
-header nav{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header nav {
     width: auto;
-    height: 100px;
-    border: 2px solid red;
+    height: 92px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
 }
+.nav-logo {
+    margin-top: 16px;
+    padding-left: 120px;
+    /* border: 1px solid green; */
+}
+.nav-mid {
+    margin-top: 16px;
+}
+.nav-mid ul {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right: 30px;
+    width: 365px;
+    height: 24px;
+    font-size: 16px;
+    /* border: 1px solid red; */
+}
+.nav-mid ul a li {
+    list-style: none;
+}
+.nav-mid ul a {
+    text-decoration: none;
+    color: black;
+}
+.nav-btn {
+    margin-top: 24px;
+    margin-right: 120px;
+}
+.nav-btn a button{
+    width: 164px;
+    height: 44px;
+    background-color: #30B868;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 1px 2px 50px rgba(107, 212, 107, 0.858);
+}
+.btn-text {
+    font-size: 17px;
+    font-weight: 600;
+}
+
 
 
 
