@@ -337,24 +337,11 @@ footer {
     font-size: 14px;
 }
 
-
-
-
-
-
-
-
-
-
-.sfu .social-links ul a li img {
+.social-links ul a li img {
     width: 20px;
     height: 20px;
     background-color: white;
     border: 1px solid black;
     padding: 3px;
     border-radius: 50px;
-}
-.div{
-    height: 500px ;
-    background-color: red;
 }
